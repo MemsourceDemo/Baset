@@ -1,0 +1,20 @@
+phrase:
+  access_token: b48d06cdb30843bf1050eee98671f1657a18ec6a81a704a2574eef78b4b10ea3
+  project_id: 40642ac6a1936acc0e0ac2cf1798a80f
+  push:
+    sources:
+    - file: ./4github.json
+      params:
+        file_format: simple_json
+        locale_id: en
+        tags: github
+        update_translations: true
+        autotranslate: true
+        
+  pull:
+    targets:
+    - file: ./4github-de.json
+      params:
+        file_format: simple_json
+        locale_id: de
+        tags: github
